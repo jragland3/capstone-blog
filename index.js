@@ -2,16 +2,8 @@ import express from "express";
 
 const app = express();
 const port = 3000;
-let authorList = [
-  "Josh Ragland",
-  "Josh Ragland",
-  "Dudebrah McGee"
-]
-let postList = [
-  "This is my first post!",
-  "Hello again!",
-  "Just hanging out"
-]
+let authorList = [];
+let postList = [];
 let allPosts = [];
 
 app.use(express.urlencoded({ extended: true }));

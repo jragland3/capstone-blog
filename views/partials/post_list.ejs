@@ -1,7 +1,9 @@
 <ul>
-  <% if (locals.allPosts) { %>
+  <% if (locals.allPosts.length !== 0) { %>
     <% for (let p=allPosts.length-1; p >= 0; p--) { %>
       <li><%= p+1 %>. <%= allPosts[p].postText %> - <%= allPosts[p].author %></li>
     <% } %>
+  <% } else { %>
+      <p>No posts yet!</p>
   <% } %>
 </ul>
