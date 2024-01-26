@@ -6,6 +6,7 @@ body {
 
 h1, #footer {
   color: palegoldenrod;
+  padding-left: 0px;
 }
 
 #post-text {
@@ -27,10 +28,17 @@ h1, #footer {
   border: 10px;
 }
 
-li, h2, p {
+h2 {
   color: white;
+  padding-right: 5px;
 }
 
 ul {
   list-style-type: none;
+  color: white;
+  padding-right: 40px;
+}
+
+#post-list {
+  text-align:left;
 }
