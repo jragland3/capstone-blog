@@ -1,0 +1,17 @@
+<%- include("partials/header.ejs") %>
+<div>
+  <form action="/submit" method="POST">
+    <div id="name-slot">
+      <input id="name" type="text" name="name" placeholder="Name">
+    </div>
+    <div id="text-slot">
+      <input id="post-text" type="text-area" name="post-text" placeholder="Post text">
+    </div>
+    <input type="submit" value="Submit Post">
+  </form>
+</div>
+<div>
+  <h2>Posts</h2>
+  <%- include("partials/post_list.ejs") %>
+</div>
+<%- include("partials/footer.ejs") %>

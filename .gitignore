@@ -1,0 +1,5 @@
+# exclude .git files from commits
+.git
+
+# exclude node modules (should be installed before running via `npm i`)
+/node_modules

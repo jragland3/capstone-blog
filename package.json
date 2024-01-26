@@ -1,0 +1,16 @@
+{
+  "name": "capstone-project---create-a-blog-web-application",
+  "version": "1.0.0",
+  "description": "Udemy course project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josh Ragland",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}

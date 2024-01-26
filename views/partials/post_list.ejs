@@ -1,0 +1,7 @@
+<ul>
+  <% if (locals.allPosts) { %>
+    <% for (let p=allPosts.length-1; p >= 0; p--) { %>
+      <li><%= p+1 %>. <%= allPosts[p].postText %> - <%= allPosts[p].author %></li>
+    <% } %>
+  <% } %>
+</ul>

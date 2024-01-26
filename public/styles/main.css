@@ -1,0 +1,36 @@
+body {
+  background-image: url("../assets/home-background.jpg");
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+h1, #footer {
+  color: palegoldenrod;
+}
+
+#post-text {
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+#name {
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+[type='submit'] {
+  background-color: whitesmoke;
+}
+
+#create-post-button {
+  background-color: whitesmoke;
+  border: 10px;
+}
+
+li, h2 {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
